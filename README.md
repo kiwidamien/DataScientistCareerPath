@@ -11,4 +11,10 @@ This blog (and it willl eventually be a blog in sphinx!) will be focused on care
 
 ## Building instructions
 
-TODO
+To run on your local machine
+```python
+make serve
+```
+This will compile the HTML, and you should be able to access the documentation on `localhost:8990`
+
+To deploy, `make github` and then push to generated docs to the main branch.
